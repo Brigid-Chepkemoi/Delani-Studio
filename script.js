@@ -39,15 +39,16 @@ $("#card-text-5").show();
 $('.card-5').css("opacity","100%");
 $("#card-text-5").hide();
 });
+
+$('.card-6').mouseover(function(){
+$('#card-text-6').css({"background":"#fff", "color":"black"});
+$('.card-6').css({"font-size": "180%","opacity": "50%"});
+$("#card-text-6").show();
+}).mouseout(function(){
+$('.card-6').css("opacity","100%");
+$("#card-text-6").hide();
 });
-// $('.card-6').mouseover(function(){
-// $('#card-text-6').css({"background":"#fff", "color":"black"});
-// $('.card-6').css({"font-size": "180%","opacity": "50%"});
-// $("#card-text-6").show();
-// }).mouseout(function(){
-// $('.card-6').css("opacity","100%");
-// $("#card-text-6").hide();
-// });
+});
 // $('.card-7').mouseover(function(){
 // $('.card-7').css({"font-size": "200%","opacity": "50%"});
 // $("#card-text-7").show();
