@@ -78,20 +78,20 @@ $("#devdesc").click(function(){
     $("#productdetails").show()
       $("#productdesc").hide('fast')
     });
-});
-// $("#submit").click(function () {
-// var FullName = $("#fname").val();
-// var Email = $("#email").val();
-// var Message = $("#message").val();
-// if (FullName == '' || Email == '' || Message == '') {
-// alert("Fill all fields");
-// } else {
-// alert(FullName + " Your message has been Successfully Submitted!");
-// }
-// })
-// event.preventDefault();
+
+$("#submit").click(function () {
+var FullName = $("#fname").val();
+var Email = $("#email").val();
+var Message = $("#message").val();
+if (FullName == '' || Email == '' || Message == '') {
+alert("Fill all fields");
+} else {
+alert(FullName + " Your message has been Successfully Submitted!");
+}
+})
+event.preventDefault();
    
-// });
+});
 
 
 
