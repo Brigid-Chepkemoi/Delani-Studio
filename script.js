@@ -69,11 +69,12 @@ $("#designdesc").click(function(){
 $("#designdetails").show()
   $("#designdesc").hide('fast')
 });
+
+$("#devdesc").click(function(){
+  $("#devdetails").show()
+    $("#devdesc").hide('fast')
+  });
 });
-// $("#devdesc").click(function(){
-//   $("#devdetails").show()
-//     $("#devdesc").hide('fast')
-//   });
 //   $("#productdesc").click(function(){
 //     $("#productdetails").show()
 //       $("#productdesc").hide('fast')
