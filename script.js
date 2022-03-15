@@ -7,15 +7,16 @@ $(document).ready(function(){
     $('.card-1').css("opacity","100%");
     $("#card-text-1").hide();
 });
+
+$('.card-2').mouseover(function(){
+$('#card-text-2').css({"background":"#3A3D4A"});
+$('.card-2').css({"font-size": "200%","opacity": "50%"});
+$("#card-text-2").show();
+}).mouseout(function(){
+$('.card-2').css("opacity","100%");
+$("#card-text-2").hide();
 });
-// $('.card-2').mouseover(function(){
-// $('#card-text-2').css({"background":"#3A3D4A"});
-// $('.card-2').css({"font-size": "200%","opacity": "50%"});
-// $("#card-text-2").show();
-// }).mouseout(function(){
-// $('.card-2').css("opacity","100%");
-// $("#card-text-2").hide();
-// });
+});
 // $('.card-3').mouseover(function(){
 // $('.card-3').css({"font-size": "200%","opacity": "50%"});
 // $("#card-text-3").show();
