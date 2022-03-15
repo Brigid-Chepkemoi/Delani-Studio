@@ -64,11 +64,12 @@ $("#card-text-8").show();
 $('.card-8').css({"opacity": "100%"});
 $("#card-text-8").hide();
 });
+
+$("#designdesc").click(function(){
+$("#designdetails").show()
+  $("#designdesc").hide('fast')
 });
-// $("#designdesc").click(function(){
-// $("#designdetails").show()
-//   $("#designdesc").hide('fast')
-// });
+});
 // $("#devdesc").click(function(){
 //   $("#devdetails").show()
 //     $("#devdesc").hide('fast')
