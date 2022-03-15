@@ -30,15 +30,16 @@ $("#card-text-4").show();
 $('.card-4').css("opacity","100%");
 $("#card-text-4").hide();
 });
+
+$('.card-5').mouseover(function(){
+$('#card-text-5').css({"background":"#fff", "color":"black"});
+$('.card-5').css({"font-size": "180%","opacity": "50%"});
+$("#card-text-5").show();
+}).mouseout(function(){
+$('.card-5').css("opacity","100%");
+$("#card-text-5").hide();
 });
-// $('.card-5').mouseover(function(){
-// $('#card-text-5').css({"background":"#fff", "color":"black"});
-// $('.card-5').css({"font-size": "180%","opacity": "50%"});
-// $("#card-text-5").show();
-// }).mouseout(function(){
-// $('.card-5').css("opacity","100%");
-// $("#card-text-5").hide();
-// });
+});
 // $('.card-6').mouseover(function(){
 // $('#card-text-6').css({"background":"#fff", "color":"black"});
 // $('.card-6').css({"font-size": "180%","opacity": "50%"});
