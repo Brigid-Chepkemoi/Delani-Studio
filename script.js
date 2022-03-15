@@ -48,14 +48,15 @@ $("#card-text-6").show();
 $('.card-6').css("opacity","100%");
 $("#card-text-6").hide();
 });
+
+$('.card-7').mouseover(function(){
+$('.card-7').css({"font-size": "200%","opacity": "50%"});
+$("#card-text-7").show();
+}).mouseout(function(){
+$('.card-7').css("opacity","100%");
+$("#card-text-7").hide();
 });
-// $('.card-7').mouseover(function(){
-// $('.card-7').css({"font-size": "200%","opacity": "50%"});
-// $("#card-text-7").show();
-// }).mouseout(function(){
-// $('.card-7').css("opacity","100%");
-// $("#card-text-7").hide();
-// });
+});
 // $('.card-8').mouseover(function(){
 // $('.card-8').css({"font-size": "200%","opacity": "50%"});
 // $("#card-text-8").show();
