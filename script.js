@@ -16,14 +16,14 @@ $("#card-text-2").show();
 $('.card-2').css("opacity","100%");
 $("#card-text-2").hide();
 });
+$('.card-3').mouseover(function(){
+$('.card-3').css({"font-size": "200%","opacity": "50%"});
+$("#card-text-3").show();
+}).mouseout(function(){
+$('.card-3').css("opacity","100%");
+$("#card-text-3").hide();
 });
-// $('.card-3').mouseover(function(){
-// $('.card-3').css({"font-size": "200%","opacity": "50%"});
-// $("#card-text-3").show();
-// }).mouseout(function(){
-// $('.card-3').css("opacity","100%");
-// $("#card-text-3").hide();
-// });
+});
 // $('.card-4').mouseover(function(){
 // $('.card-4').css({"font-size": "180%","opacity": "50%"});
 // $("#card-text-4").show();
