@@ -65,18 +65,19 @@ $('.card-8').css({"opacity": "100%"});
 $("#card-text-8").hide();
 });
 
-$("#designdesc").click(function(){
-$("#designdetails").show()
-  $("#designdesc").hide('fast')
+$(".design").click(function(){
+$("#designdetails").toggle()
+  $("#designdesc").toggle('500')
+
 });
 
-$("#devdesc").click(function(){
-  $("#devdetails").show()
-    $("#devdesc").hide('fast')
+$(".dev").click(function(){
+  $("#devdetails").toggle()
+  $("#devdesc").toggle('500')
   });
-  $("#productdesc").click(function(){
-    $("#productdetails").show()
-      $("#productdesc").hide('fast')
+  $(".product").click(function(){
+    $("#productdetails").toggle()
+      $("#productdesc").toggle('500')
     });
 
 $("#submit").click(function () {
