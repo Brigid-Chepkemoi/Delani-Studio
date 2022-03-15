@@ -56,14 +56,15 @@ $("#card-text-7").show();
 $('.card-7').css("opacity","100%");
 $("#card-text-7").hide();
 });
+
+$('.card-8').mouseover(function(){
+$('.card-8').css({"font-size": "200%","opacity": "50%"});
+$("#card-text-8").show();
+}).mouseout(function(){
+$('.card-8').css({"opacity": "100%"});
+$("#card-text-8").hide();
 });
-// $('.card-8').mouseover(function(){
-// $('.card-8').css({"font-size": "200%","opacity": "50%"});
-// $("#card-text-8").show();
-// }).mouseout(function(){
-// $('.card-8').css({"opacity": "100%"});
-// $("#card-text-8").hide();
-// });
+});
 // $("#designdesc").click(function(){
 // $("#designdetails").show()
 //   $("#designdesc").hide('fast')
