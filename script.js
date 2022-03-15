@@ -74,12 +74,11 @@ $("#devdesc").click(function(){
   $("#devdetails").show()
     $("#devdesc").hide('fast')
   });
+  $("#productdesc").click(function(){
+    $("#productdetails").show()
+      $("#productdesc").hide('fast')
+    });
 });
-//   $("#productdesc").click(function(){
-//     $("#productdetails").show()
-//       $("#productdesc").hide('fast')
-//     });
-
 // $("#submit").click(function () {
 // var FullName = $("#fname").val();
 // var Email = $("#email").val();
