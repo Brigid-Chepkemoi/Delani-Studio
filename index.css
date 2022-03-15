@@ -1,6 +1,6 @@
 /* section 1 styling */
 .description {
-    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-image: url(assets/backgrounds/h_img.jpg);
     height: 800px;
    background-position: center;
   background-size: cover;
